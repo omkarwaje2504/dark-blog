@@ -6,13 +6,14 @@ import { Menu } from "@/components/Menu";
 
 export default function Home() {
   return (
-    <div className="mb-60">
+    <div className="pb-60">
       <Featured />
       <CategoryList />
-      <div className="flex w-full">
+      <div className="flex w-full flex-col md:flex-row">
         <CardList />
         <Menu />
       </div>
+      
     </div>
   );
 }
