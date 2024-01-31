@@ -5,7 +5,7 @@ import { MenuCategories } from "./MenuCategories";
 
 export const Menu = () => {
   return (
-    <div className="basis-2/6 mt-10">
+    <div className="basis-2/6 mt-10 hidden md:flex ">
       <div className="mt-1">
         <div>
           <h2 className="text-sm text-red-500 font-light">What's hot</h2>

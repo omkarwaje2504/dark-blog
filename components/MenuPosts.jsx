@@ -15,7 +15,7 @@ const MenuPosts = ({ withImage }) => {
             />
           </div>
         )}
-        <div className="w-3/4">
+        <div className={`${withImage ? "w-3/4" : ""}`}>
           <p className="px-2 bg-red-100 font-medium w-fit rounded-full text-black text-xs">
             Travel
           </p>
@@ -39,7 +39,7 @@ const MenuPosts = ({ withImage }) => {
             />
           </div>
         )}
-        <div className="w-3/4">
+        <div className={`${withImage ? "w-3/4" : ""}`}>
           <p className="px-2 bg-yellow-100 font-medium w-fit rounded-full text-black text-xs">
             Travel
           </p>
@@ -63,7 +63,7 @@ const MenuPosts = ({ withImage }) => {
             />
           </div>
         )}
-        <div className="w-3/4">
+        <div className={`${withImage ? "w-3/4" : ""}`}>
           <p className="px-2 bg-green-100 font-medium w-fit rounded-full text-black text-xs">
             Travel
           </p>
