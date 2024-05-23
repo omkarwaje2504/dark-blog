@@ -8,7 +8,7 @@ export const Menu = () => {
     <div className="basis-2/6 mt-10 hidden md:flex ">
       <div className="mt-1">
         <div>
-          <h2 className="text-sm text-red-500 font-light">What's hot</h2>
+          <h2 className="text-sm text-red-500 font-light">What&apos;s hot</h2>
           <h1 className="text-2xl md:text-3xl font-bold ">Most Popular</h1>
         </div>
         <MenuPosts withImage={false} />
