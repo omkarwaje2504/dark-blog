@@ -11,7 +11,7 @@ export const MenuCategories = ({ withImage }) => {
         {withImage && (
           <div className="w-4 h-4 md:w-6 md:h-6 rounded-full overflow-hidden">
             <Image
-              src="/style.png"
+              src="./style.png"
               width={20}
               height={20}
               alt="style"
@@ -28,7 +28,7 @@ export const MenuCategories = ({ withImage }) => {
         {withImage && (
           <div className="w-4 h-4 md:w-6 md:h-6 rounded-full overflow-hidden">
             <Image
-              src="/fashion.png"
+              src="./fashion.png"
               width={20}
               height={20}
               alt="fashion"
@@ -45,7 +45,7 @@ export const MenuCategories = ({ withImage }) => {
         {withImage && (
           <div className="w-4 h-4 md:w-6 md:h-6 rounded-full overflow-hidden">
             <Image
-              src="/food.png"
+              src="./food.png"
               width={20}
               height={20}
               alt="food"
@@ -62,7 +62,7 @@ export const MenuCategories = ({ withImage }) => {
         {withImage && (
           <div className="w-4 h-4 md:w-6 md:h-6 rounded-full overflow-hidden">
             <Image
-              src="/travel.png"
+              src="./travel.png"
               width={20}
               height={20}
               alt="travel"
@@ -79,7 +79,7 @@ export const MenuCategories = ({ withImage }) => {
         {withImage && (
           <div className="w-4 h-4 md:w-6 md:h-6 rounded-full overflow-hidden">
             <Image
-              src="/culture.png"
+              src="./culture.png"
               width={20}
               height={20}
               alt="culture"
@@ -96,7 +96,7 @@ export const MenuCategories = ({ withImage }) => {
         {withImage && (
           <div className="w-4 h-4 md:w-6 md:h-6 rounded-full overflow-hidden">
             <Image
-              src="/coding.png"
+              src="./coding.png"
               width={20}
               height={20}
               alt="coding"

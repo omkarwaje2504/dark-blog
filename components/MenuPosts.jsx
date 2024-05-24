@@ -8,7 +8,7 @@ const MenuPosts = ({ withImage }) => {
         {withImage && (
           <div className="flex w-14 h-14 relative overflow-hidden rounded-full border-2 border-gray-200">
             <Image
-              src="/culture.png"
+              src="./culture.png"
               fill
               alt="image"
               className="object-cover"
@@ -32,7 +32,7 @@ const MenuPosts = ({ withImage }) => {
         {withImage && (
           <div className="flex w-14 h-14 relative overflow-hidden rounded-full border-2 border-gray-200">
             <Image
-              src="/culture.png"
+              src="./culture.png"
               fill
               alt="image"
               className="object-cover"
@@ -56,7 +56,7 @@ const MenuPosts = ({ withImage }) => {
         {withImage && (
           <div className="flex w-14 h-14 relative overflow-hidden rounded-full border-2 border-gray-200">
             <Image
-              src="/culture.png"
+              src="./culture.png"
               fill
               alt="image"
               className="object-cover"

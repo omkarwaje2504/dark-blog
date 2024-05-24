@@ -7,7 +7,7 @@ export const Footer = () => {
       <div className="md:w-1/2 ">
         <div className="flex gap-4 items-center">
           <span className="w-14 h-14 border rounded-full overflow-hidden">
-            <Image src="/logo.png" alt="logo" width={100} height={100} />
+            <Image src="./logo.png" alt="logo" width={100} height={100} />
           </span>
           <span className="text-2xl font-bold ">Dark-Coder</span>
         </div>
@@ -17,10 +17,10 @@ export const Footer = () => {
           then push
         </p>
         <div className="flex w-fit gap-4 dark:bg-white p-2 rounded-full mt-8">
-          <Image src="/facebook.png" alt="facebook" width={24} height={24} />
-          <Image src="/instagram.png" alt="instagram" width={24} height={24} />
-          <Image src="/tiktok.png" alt="tiktok" width={24} height={24} />
-          <Image src="/youtube.png" alt="youtube" width={24} height={24} />
+          <Image src="./facebook.png" alt="facebook" width={24} height={24} />
+          <Image src="./instagram.png" alt="instagram" width={24} height={24} />
+          <Image src="./tiktok.png" alt="tiktok" width={24} height={24} />
+          <Image src="./youtube.png" alt="youtube" width={24} height={24} />
         </div>
       </div>
       <div className="flex w-full mt-6 md:mt-0 md:w-1/3 justify-between">
