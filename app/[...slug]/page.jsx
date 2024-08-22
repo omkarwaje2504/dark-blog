@@ -24,7 +24,7 @@ async function fetchDataForSlug(slug) {
       ice grass inside layers reason diameter farm clearly blew tired rough balloon swam column swing damage solid eaten cloth pupil quite swimming straw bigger
     `,
     heading: "Content is this the heading part",
-    mainImage: "/p1.jpeg",
+    mainImage: "./p1.jpeg",
   };
 }
 

@@ -9,7 +9,7 @@ export const CardList = () => {
       <h1 className="text-2xl md:text-3xl font-bold">Recent Posts</h1>
       <div>
         <Card
-          imageUrl={"/p1.jpeg"}
+          imageUrl={"./p1.jpeg"}
           date={"4/14/2098"}
           category={"Culture"}
           title={
@@ -20,7 +20,7 @@ export const CardList = () => {
           }
         />
         <Card
-          imageUrl={"/p1.jpeg"}
+          imageUrl={"./p1.jpeg"}
           date={"4/14/2098"}
           category={"Culture"}
           title={
@@ -31,7 +31,7 @@ export const CardList = () => {
           }
         />
         <Card
-          imageUrl={"/p1.jpeg"}
+          imageUrl={"./p1.jpeg"}
           date={"4/14/2098"}
           category={"Culture"}
           title={
@@ -42,7 +42,7 @@ export const CardList = () => {
           }
         />
         <Card
-          imageUrl={"/p1.jpeg"}
+          imageUrl={"./p1.jpeg"}
           date={"4/14/2098"}
           category={"Culture"}
           title={

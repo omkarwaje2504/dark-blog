@@ -9,7 +9,7 @@ export const Featured = () => {
       <div className="flex flex-col md:flex-row gap-4 2xl:gap-20 mt-4 md:mt-10 items-center">
         <div className="flex w-full md:w-1/2 h-64 md:h-96 2xl:h-[32rem] relative mt-8 overflow-hidden">
           <Image
-            src="/p1.jpeg"
+            src="./p1.jpeg"
             fill
             alt="image"
             className="object-cover"
